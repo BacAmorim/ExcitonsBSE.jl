@@ -1,0 +1,13 @@
+name = "ExcitonsBSE"
+uuid = "2eb0e0ac-7ec2-4afc-862d-5f5f7160fb9d"
+authors = ["Bruno Amorim <amorim.bac@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
